@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    overflow-x: hidden;
+    position: relative;
+}
+
+:root {
+    --basic-yellow: #F9DC5C;
+    --bright-red: #ED254E;
+    --deep-red: #C21F40;
+    --white: #F4FFFD;
+    --deep-blue: #011936;
+}
+
+h1, h2, h3, h4, h5, p {
+    cursor: default;
+}

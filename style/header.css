@@ -1,0 +1,67 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    width: 100%;
+    height: 7vh;
+    text-align: center;
+    background-color: var(--white);
+    transition: 0.5s color, 0.5s background-color;
+    overflow-x: hidden;
+}
+
+.header>h2 {
+    position: relative;
+    display: inline;
+    line-height: 7vh;
+    font-family: 'Satisfy';
+    font-size: 18px;
+    padding: 0 2vw;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    transition: 0.5s border-color;
+}
+
+.header>h2::before {
+    position: absolute;
+    top: 50%;
+    left: -3vw;
+    display: inline-block;
+    content: "";
+    width: 3vw;
+    height: 1px;
+    background-color: black;
+    transition: 0.5s background-color, 0.5s width;
+}
+
+.header>h2::after {
+    position: absolute;
+    top: 50%;
+    right: -3vw;
+    display: inline-block;
+    content: "";
+    width: 3vw;
+    height: 1px;
+    background-color: black;
+    transition: 0.5s background-color, 0.5s width;
+}
+
+.header.stop {
+    position: absolute;
+    top: 93vh;
+    background-color: black;
+    color: var(--white);
+}
+
+.header.stop>h2 {
+    border-color: var(--white);
+}
+
+.header.stop>h2::after, .header.stop>h2::before{
+    background-color: var(--white);
+}
+
+.header.stop>h2::before, .header.stop>h2::after {
+    width: 5vw;
+}

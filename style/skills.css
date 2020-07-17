@@ -1,0 +1,137 @@
+.skills {
+    /* position: absolute;
+    z-index: 3;
+    left: 0;
+    width: 100%; */
+    display: flex;
+    flex-direction: column;
+    background-color: var(--deep-blue);
+    color: var(--white);
+    overflow-x: hidden;
+}
+
+.skills>header {
+    position: relative;
+    margin-top: 5vh;
+    margin-left: 6vw;
+    margin-right: 6vw;
+    border-bottom: 2px solid var(--white);
+}
+
+.skills>header::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    background-color: var(--deep-red);
+    height: 5%;
+    width: 0%;
+    z-index: 0;
+}
+
+.skills>header.anim::after {
+    animation: section-header-effect 2s forwards;
+}
+
+.skills>header>p {
+    position: relative;
+    z-index: 1;
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    font-size: 110px;
+    text-transform: uppercase;
+    color: var(--white);
+}
+
+.skills>.content {
+    display: flex;
+    flex-direction: column;
+    margin: 10vh auto 10vh auto;
+    width: 90%;
+    color: var(--white);
+}
+
+.skills .sentence, .technologies p {
+    font-family: 'Martel', serif;
+    font-weight: 400;
+    font-size: 25px;
+    letter-spacing: 2px;
+    text-align: center;
+    opacity: 0;
+}
+
+.icons {
+    margin: 5vh 0;
+    text-align: center;
+}
+
+.second-motto .fas {
+    font-size: 120px;
+    margin: 0 2vw;
+    transform: translateY(-10%);
+    opacity: 0;
+}
+
+.second-motto.visible>.sentence {
+    animation: show 0.7s forwards;
+}
+
+.second-motto.visible .fa-laptop {
+    animation: position-pics 0.7s 0.7s forwards, show 0.7s 0.7s forwards;
+}
+
+.second-motto.visible .fa-tablet-alt {
+    animation: position-pics 0.7s 1.4s forwards, show 0.7s 1.4s forwards;
+}
+
+.second-motto.visible .fa-mobile-alt {
+    animation: position-pics 0.7s 2.1s forwards, show 0.7s 2.1s forwards;
+}
+
+.technologies>p.visible {
+    animation: show 0.7s forwards;
+}
+
+.technologies-list {
+    margin: 5vh auto 0 auto;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}    
+
+.technologies-list i {
+    font-size: 140px;
+}
+
+.technologies-list h2 {
+    font-family: 'Martel', serif;
+    font-weight: 400;
+    font-size: 22px;
+    padding: 0 3px;
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 2px var(--white) dotted;
+    border-radius: 15px;
+    text-align: center;
+    width: 20%;
+    margin: 1% 2.5%;
+    padding: 2% 0vh;
+    opacity: 0;
+    transform: rotateY(90deg);
+    transition: transform 0.7s;
+}
+
+.skill.visible {
+    animation: show 0.7s forwards;
+    transform: rotateY(0deg);
+}
+
+/* .skill:last-of-type {
+    margin: 0 auto;
+} */

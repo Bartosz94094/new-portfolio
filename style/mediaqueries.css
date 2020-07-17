@@ -1,0 +1,2215 @@
+@media(max-width: 1680px) {
+
+    .introduction>.text {
+        width: 90%;
+    }
+
+    .about img {
+        width: 80%;
+    }
+
+    .technologies-list {
+        width: 85%;
+    }
+
+    .projects-list {
+        width: 90%;
+    }
+
+}
+
+@media(max-width: 1600px) {
+    ul a {
+        font-size: 18px;
+    }
+
+    .technologies-list {
+        width: 80%;
+    }
+
+    .skills .sentence, .technologies p {
+        font-size: 22px;
+    }
+
+    .second-motto .fas {
+        font-size: 100px;
+    }
+
+    .technologies-list i {
+        font-size: 120px;
+    }
+
+    .projects-list h2 {
+        font-size: 18px;
+    }
+
+    .github-link {
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 1536px) {
+    .about>header>p, .skills>header>p, .projects>header>p, .contact>header>p {
+        font-size: 110px;
+    }
+
+    .technologies-list h2 {
+        font-size: 22px;
+    }
+}
+
+@media(max-width: 1440px) {
+    .burger {
+        width: 36px;
+        height: 26px;
+        border-top: 2px solid var(--white);
+    }
+    
+    .burger::after, .burger::before {
+        border-top: 2px solid var(--white);
+    }
+
+    .burger::before {
+        transform: translateY(10px);
+    }
+    
+    .burger::after {
+        transform: translateY(22px);
+    }
+
+    .burger.active::after {
+        transform: rotate(-90deg) translate(-10px);
+    }
+
+    ul a {
+        font-size: 17px;
+    }
+
+    .details>h2 {
+        font-size: 100px;
+    }
+
+    .profession>h2:nth-of-type(2) {
+        font-size: 70px;
+    }
+
+    .motto h4 {
+        font-size: 26px;
+    }
+
+    .first, .second, .third {
+        width: 80%;
+    }
+
+    .about img {
+        width: 75%;
+        box-shadow: -15px -15px var(--deep-blue);
+    }
+
+    .about img.move {
+        box-shadow: 25px 25px var(--deep-blue);
+    }
+
+    .first>p, .second>p, .third>p {
+        padding: 0 6%;
+    }
+}
+
+@media(max-width:1366px) {
+
+    .header>h2 {
+        font-size: 16px;
+    }
+
+    .burger {
+        top: 15px;
+    }
+
+    .author>img {
+        width: 55%;
+    }
+
+    ul a {
+        font-size: 16px;
+    }
+
+    .author>h2:first-of-type {
+        font-size: 20px;
+    }
+    
+    .author>h2:last-of-type {
+        font-size: 17px;
+    }
+
+    .details>h2 {
+        font-size: 95px;
+    }
+
+    .profession>h2 {
+        font-size: 48px;
+    }
+
+    .profession>h2:nth-of-type(2) {
+        font-size: 65px;
+    }
+
+    .about>header>p, .skills>header>p, .projects>header>p, .contact>header>p {
+        font-size: 100px;
+    }
+
+    .first>p, .second>p, .third>p {
+        font-size: 14px;
+    }
+
+    .fa-lightbulb {
+        font-size: 40px;
+        margin: 0 8px;
+    }
+
+    .projects-list h2 {
+        font-size: 18px;
+        margin-top: 8px;
+    }
+
+    .github-link {
+        font-size: 20px;
+    }
+
+    .contact-info h2, .contact-form h4 {
+        font-size: 18px;
+    }
+
+    button {
+        font-size: 14px;
+        height: 20px;
+        line-height: 20px;
+    }
+}
+
+@media(width:1366px) and (height:1024px) {
+
+    .header>h2 {
+        font-size: 19px;
+    }
+
+    .burger {
+        top: 20px;
+    }
+
+    .author>img {
+        width: 65%;
+    }
+
+    ul a {
+        font-size: 18px;
+    }
+
+    .author>h2:first-of-type {
+        font-size: 22px;
+    }
+    
+    .author>h2:last-of-type {
+        font-size: 18px;
+    }
+
+    .about img {
+        width: 80%;
+    }
+
+    .first>p, .second>p, .third>p {
+        font-size: 16px;
+    }
+
+    .technologies-list {
+        width: 90%;
+    }
+
+    .projects-list {
+        width: 100%;
+    }
+
+    .first-column, .second-column {
+        width: 48%;
+    }
+
+    .contact-info h2, .contact-form h4 {
+        font-size: 20px;
+    }
+
+    button {
+        font-size: 14px;
+        height: 22px;
+        line-height: 22px;
+    }
+}
+
+@media(max-width:1280px) {
+
+    .header>h2 {
+        font-size: 22px;
+    }
+
+    .burger {
+        top: 20px;
+    }
+
+    .author>img {
+        width: 75%;
+    }
+
+    ul a {
+        font-size: 18px;
+    }
+
+    .author>h2:first-of-type {
+        font-size: 22px;
+    }
+    
+    .author>h2:last-of-type {
+        font-size: 18px;
+    }
+
+    .about img {
+        width: 85%;
+    }
+
+    .first>p, .second>p, .third>p {
+        font-size: 16px;
+    }
+
+    .technologies-list {
+        width: 90%;
+    }
+
+    .projects-list {
+        width: 100%;
+    }
+
+    .first-column, .second-column {
+        width: 49%;
+    }
+
+    .contact-info h2, .contact-form h4 {
+        font-size: 20px;
+    }
+
+    button {
+        font-size: 14px;
+        height: 22px;
+        line-height: 22px;
+    }
+
+}
+
+@media(width:1280px) and (height:800px) {
+    .header>h2 {
+        font-size: 17px;
+    }
+
+    .burger {
+        top: 16px;
+    }
+
+    .author>img {
+        width: 60%;
+    }
+
+    ul a {
+        font-size: 16px;
+    }
+
+    .author>h2:first-of-type {
+        font-size: 20px;
+    }
+    
+    .author>h2:last-of-type {
+        font-size: 18px;
+    }
+
+    .about>header>p, .skills>header>p, .projects>header>p, .contact>header>p {
+        font-size: 98px;
+    }
+
+    .about img {
+        width: 75%;
+    }
+
+    .first>p, .second>p, .third>p {
+        font-size: 14px;
+    }
+
+    .technologies-list {
+        width: 80%;
+    }
+
+    .contact-info h2, .contact-form h4 {
+        font-size: 16px;
+    }
+
+    button {
+        font-size: 14px;
+        height: 22px;
+        line-height: 22px;
+    }
+}
+
+@media(width:1280px) and (height:720px) {
+    .header>h2 {
+        font-size: 16px;
+    }
+
+    .burger {
+        top: 16px;
+    }
+
+    .author>img {
+        width: 60%;
+    }
+
+    ul a {
+        font-size: 16px;
+    }
+
+    .author>h2:first-of-type {
+        font-size: 20px;
+    }
+    
+    .author>h2:last-of-type {
+        font-size: 18px;
+    }
+
+    .about>header>p, .skills>header>p, .projects>header>p, .contact>header>p {
+        font-size: 95px;
+    }
+
+    .about img {
+        width: 75%;
+    }
+
+    .first>p, .second>p, .third>p {
+        font-size: 14px;
+    }
+
+    .technologies-list {
+        width: 80%;
+    }
+
+    .projects-list {
+        width: 90%;
+    }
+
+    .first-column, .second-column {
+        width: 48%;
+    }
+
+    .projects-list h2 {
+        font-size: 16px;
+    }
+
+    .contact-info h2, .contact-form h4 {
+        font-size: 16px;
+    }
+
+    .contact-info h3, .contact-form span, input, textarea {
+        font-size: 13px;
+    }
+
+    form p {
+        font-size: 13px;
+    }
+
+    button {
+        font-size: 13px;
+        height: 22px;
+        line-height: 22px;
+    }
+}
+
+@media(max-width:1024px) {
+    .header>h2 {
+        font-size: 15px;
+    }
+
+    .header>h2::before {
+        left: -8vw;
+        width: 8vw;
+    }
+    
+    .header>h2::after {
+        width: 8vw;
+        right: -8vw;
+    }
+
+    .burger {
+        width: 34px;
+        height: 22px;
+    }
+
+    .burger::before {
+        transform: translateY(8px);
+    }
+    
+    .burger::after {
+        transform: translateY(18px);
+    }
+
+    .burger.active::after {
+        transform: rotate(-90deg) translate(-8px);
+    }
+
+    .author>img {
+        width: 70%;
+    }
+
+    .author>h2:first-of-type {
+        font-size: 20px;
+    }
+    
+    .author>h2:last-of-type {
+        font-size: 17px;
+    }
+
+    ul a {
+        font-size: 15px;
+    }
+
+    .details>h2 {
+        font-size: 80px;
+    }
+
+    .profession>h2 {
+        font-size: 40px;
+    }
+
+    .profession>h2:nth-of-type(2) {
+        font-size: 60px;
+    }
+
+    .motto h4 {
+        font-size: 22px;
+    }
+
+    .about>header>p, .skills>header>p, .projects>header>p, .contact>header>p {
+        font-size: 80px;
+    }
+
+    .first, .second, .third {
+        width: 90%;
+    }
+
+    .first>p, .second>p, .third>p {
+        font-size: 14px;
+    }
+
+    .about img {
+        width: 75%;
+        box-shadow: -10px -10px var(--deep-blue);
+    }
+
+    .about img.move {
+        box-shadow: 15px 15px var(--deep-blue);
+    }
+
+    .greetings-background {
+        background-size: 20% 20%;
+    }
+
+    .skills .sentence, .technologies p {
+        font-size: 22px;
+    }
+
+    .second-motto .fas {
+        font-size: 100px;
+    }
+
+    .technologies-list i {
+        font-size: 100px;
+    }
+    
+    .technologies-list h2 {
+        font-size: 20px;
+    }
+    
+    .fa-lightbulb {
+        font-size: 36px;
+    }
+
+    .light-bulbs-first::after, .light-bulbs-second::after {
+        width: 16%;
+
+
+    }
+
+    .projects-list h2 {
+        font-size: 17px;
+    }
+
+    .github-link {
+        font-size: 20px;
+    }
+
+    .contact-info h2, .contact-form h4 {
+        font-size: 18px;
+    }
+
+    .contact-info h3, .contact-form span, input, textarea {
+        font-size: 13px;
+        letter-spacing: 1px;
+    }
+
+    form p {
+        font-family: 'Martel', serif;
+        font-weight: 400;
+        font-size: 13px;
+    }
+
+    button {
+        font-size: 14px;
+        height: 20px;
+        line-height: 20px;
+    }
+
+}
+
+@media(width:1024px) and (height:600px) {
+    .burger {
+        top: 12px;
+    }
+
+    .author>img {
+        width: 60%;
+    }
+}
+
+@media(width:1024px) and (height:1366px) {
+    .header>h2 {
+        font-size: 24px;
+    }
+
+    .burger {
+        top: 30px;
+        width: 44px;
+        height: 29px;
+        border-top: 3px solid var(--white);
+    }
+
+    .burger::after, .burger::before {
+        border-top: 3px solid var(--white);
+    }
+
+    .burger::before {
+        transform: translateY(10px);
+    }
+    
+    .burger::after {
+        transform: translateY(23px);
+    }
+
+    .burger.active::after {
+        transform: rotate(-90deg) translate(-10px);
+    }
+
+    nav {
+        width: 50%;
+        right: -50%;
+    }
+
+    .author>h2:first-of-type {
+        font-size: 32px;
+    }
+    
+    .author>h2:last-of-type {
+        font-size: 26px;
+    }
+
+    ul a {
+        font-size: 24px;
+    }
+
+    .personal-details {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .details {
+        margin-right: 0;
+        text-align: center;
+    }
+    
+    .profession {
+        margin-left: 0;
+        margin-top: 2vh;
+        text-align: center;
+    }
+
+    .details>h2 {
+        font-size: 110px;
+    }
+
+    .profession>h2 {
+        font-size: 55px;
+    }
+
+    .profession>h2:nth-of-type(2) {
+        font-size: 70px;
+    }
+
+    .motto h4 {
+        font-size: 40px;
+    }
+
+    .about>header>p, .skills>header>p, .projects>header>p, .contact>header>p {
+        font-size: 105px;
+    }
+
+    @keyframes section-header-effect {
+        50% {
+            width: 60%;
+            height: 5%;
+        }
+    
+        80% {
+            width: 60%;
+            height: 80%;
+        }
+    
+        100% {
+            width: 2%;
+            height: 80%;
+        }
+    }
+    .about>.content {
+        width: 90%;
+        margin: 5vh auto 5vh auto;
+    }
+
+    .first, .second, .third {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .second {
+        margin: 5vh 0;
+    }
+
+    .picture-container {
+        width: 60%;
+    }
+
+    .first>p, .second>p, .third>p {
+        margin-top: 5vh;
+        order: 2;
+        width: 100%;
+        font-size: 25px;
+    }
+
+    .about img {
+        width: 100%;
+        box-shadow: -25px -25px var(--deep-blue);
+    }
+
+    .about img.move {
+        box-shadow: 35px 35px var(--deep-blue);
+    }
+
+    .greetings-background {
+        background-size: 20%;
+    }
+
+    .skills>.content {
+        margin: 5vh auto 5vh auto;
+    }
+
+    .skills .sentence, .technologies p {
+        font-size: 32px;
+    }
+
+    .second-motto .fas {
+        font-size: 120px;
+    }
+
+    .technologies-list i {
+        font-size: 160px;
+    }
+    
+    .technologies-list h2 {
+        font-size: 28px;
+    }
+
+    .skill {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border: 2px var(--white) dotted;
+        border-radius: 15px;
+        text-align: center;
+        width: 29%;
+        margin: 2% 2%;
+        padding: 2% 0vh;
+        opacity: 0;
+        transform: rotateY(90deg);
+        transition: transform 0.7s;
+    }
+
+    .projects-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .first-column, .second-column {
+        width: 90%;
+    }
+
+    .first-website {
+        margin: 5vh 0 0 0;
+    }
+
+    .upcoming {
+        margin: 5vh 0 0 0;
+    }
+
+    .projects-list h2 {
+        font-size: 28px;
+        margin-top: 10px;
+    }
+
+    .github-link {
+        font-size: 32px;
+    }
+
+    .fa-lightbulb {
+        font-size: 50px;
+    }
+
+    .light-bulbs-first::after, .light-bulbs-second::after {
+        width: 22%;
+    }
+
+    .light-bulbs-first {
+        margin-bottom: 2vh;
+    }
+
+    .light-bulbs-second {
+        margin-top: 2vh;
+    }
+
+    .projects>.content {
+        margin: 5vh auto 5vh auto;
+    }
+
+    .content-background {
+        background-size: 20%;
+    }
+
+    .contact-info h2, .contact-form h4 {
+        font-size: 24px;
+    }
+
+    .contact-info h3, .contact-form span, input, textarea {
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+
+    form p {
+        font-family: 'Martel', serif;
+        font-weight: 400;
+        font-size: 20px;
+    }
+
+    button {
+        font-size: 20px;
+        height: 26px;
+        line-height: 26px;
+    }
+
+}
+
+@media(max-width:962px) {
+    .header>h2 {
+        font-size: 14px;
+    }
+
+    .burger {
+        top:12px;
+    }
+
+    nav {
+        width: 40%;
+        right: -40%;
+    }
+
+    .author>img {
+        width: 50%;
+    }
+
+    .author>h2:first-of-type {
+        font-size: 18px;
+    }
+    
+    .author>h2:last-of-type {
+        font-size: 16px;
+    }
+
+    ul a {
+        font-size: 14px;
+    }
+
+    .details>h2 {
+        font-size: 70px;
+    }
+
+    .profession>h2 {
+        font-size: 38px;
+    }
+
+    .profession>h2:nth-of-type(2) {
+        font-size: 50px;
+    }
+
+    .about>header>p, .skills>header>p, .projects>header>p, .contact>header>p {
+        font-size: 70px;
+    }
+
+    .skills .sentence, .technologies p {
+        font-size: 20px;
+    }
+
+    .second-motto .fas {
+        font-size: 90px;
+    }
+
+    .projects-list h2 {
+        font-size: 15px;
+        margin-top: 8px;
+    }
+
+    .contact-info h2, .contact-form h4 {
+        font-size: 16px;
+    }
+
+    .contact-info h3, .contact-form span, input, textarea {
+        font-size: 13px;
+        letter-spacing: 1px;
+    }
+
+    form p {
+        font-family: 'Martel', serif;
+        font-weight: 400;
+        font-size: 13px;
+    }
+
+    button {
+        font-size: 13px;
+        height: 20px;
+        line-height: 20px;
+    }
+
+}
+
+@media(max-width:800px) {
+    .header>h2 {
+        font-size: 24px;
+    }
+
+    .burger {
+        top: 30px;
+        width: 40px;
+        height: 29px;
+        border-top: 3px solid var(--white);
+    }
+
+    .burger::after, .burger::before {
+        border-top: 3px solid var(--white);
+    }
+
+    .burger::before {
+        transform: translateY(10px);
+    }
+    
+    .burger::after {
+        transform: translateY(23px);
+    }
+
+    .burger.active::after {
+        transform: rotate(-90deg) translate(-10px);
+    }
+
+    nav {
+        width: 100%;
+        right: -100%;
+    }
+
+    .author>h2:first-of-type {
+        font-size: 32px;
+    }
+    
+    .author>h2:last-of-type {
+        font-size: 26px;
+    }
+
+    ul a {
+        font-size: 24px;
+    }
+
+    .personal-details {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .details {
+        margin-right: 0;
+        text-align: center;
+    }
+    
+    .profession {
+        margin-left: 0;
+        margin-top: 2vh;
+        text-align: center;
+    }
+
+    .details>h2 {
+        font-size: 100px;
+    }
+
+    .profession>h2 {
+        font-size: 50px;
+    }
+
+    .profession>h2:nth-of-type(2) {
+        font-size: 65px;
+    }
+
+    .motto h4 {
+        font-size: 40px;
+    }
+
+    .about>header>p, .skills>header>p, .projects>header>p, .contact>header>p {
+        font-size: 90px;
+    }
+
+    @keyframes section-header-effect {
+        50% {
+            width: 70%;
+            height: 5%;
+        }
+    
+        80% {
+            width: 70%;
+            height: 80%;
+        }
+    
+        100% {
+            width: 2%;
+            height: 80%;
+        }
+    }
+    .about>.content {
+        width: 90%;
+        margin: 5vh auto 5vh auto;
+    }
+
+    .first, .second, .third {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .second {
+        margin: 5vh 0;
+    }
+
+    .picture-container {
+        width: 60%;
+    }
+
+    .first>p, .second>p, .third>p {
+        margin-top: 5vh;
+        order: 2;
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .about img {
+        width: 100%;
+        box-shadow: -25px -25px var(--deep-blue);
+    }
+
+    .about img.move {
+        box-shadow: 35px 35px var(--deep-blue);
+    }
+
+    .greetings-background {
+        background-size: 20%;
+    }
+
+    .skills>.content {
+        margin: 5vh auto 5vh auto;
+    }
+
+    .skills .sentence, .technologies p {
+        font-size: 28px;
+    }
+
+    .second-motto .fas {
+        font-size: 120px;
+    }
+
+    .technologies-list {
+        width: 100%;
+    }
+
+    .technologies-list i {
+        font-size: 150px;
+    }
+    
+    .technologies-list h2 {
+        font-size: 24px;
+    }
+
+    .skill {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border: 2px var(--white) dotted;
+        border-radius: 15px;
+        text-align: center;
+        width: 29%;
+        margin: 2% 2%;
+        padding: 2% 0vh;
+        opacity: 0;
+        transform: rotateY(90deg);
+        transition: transform 0.7s;
+    }
+
+    .projects-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .first-column, .second-column {
+        width: 90%;
+    }
+
+    .first-website {
+        margin: 5vh 0 0 0;
+    }
+
+    .upcoming {
+        margin: 5vh 0 0 0;
+    }
+
+    .projects-list h2 {
+        font-size: 24px;
+        margin-top: 10px;
+    }
+
+    .github-link {
+        font-size: 26px;
+    }
+
+    .fa-lightbulb {
+        font-size: 45px;
+    }
+
+    .light-bulbs-first::after, .light-bulbs-second::after {
+        width: 22%;
+    }
+
+    .light-bulbs-first {
+        margin-bottom: 2vh;
+    }
+
+    .light-bulbs-second {
+        margin-top: 2vh;
+    }
+
+    .projects>.content {
+        margin: 5vh auto 5vh auto;
+    }
+
+    .content-background {
+        background-size: 20%;
+    }
+
+    .contact>.content {
+        flex-direction: column;
+        margin: 5vh auto;
+    }
+
+    .contact-form, .contact-info {
+        margin: 0;
+    }
+
+    .contact-form {
+        margin-top: 2vh;
+        order: 2;
+    }
+
+    .contact-info h2, .contact-form h4 {
+        font-size: 24px;
+    }
+
+    .contact-info h3, .contact-form span, input, textarea {
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+
+    form p {
+        font-family: 'Martel', serif;
+        font-weight: 400;
+        font-size: 18px;
+    }
+
+    button {
+        font-size: 18px;
+        height: 24px;
+        line-height: 24px;
+    }
+
+}
+
+@media(max-width:768px) {
+
+    .header>h2 {
+        font-size: 20px;
+    }
+
+    .burger {
+        top: 25px;
+    }
+
+    nav {
+        width: 60%;
+        right: -60%;
+    }
+
+    .author>img {
+        width: 60%;
+    }
+
+    .author>h2:first-of-type {
+        font-size: 28px;
+    }
+    
+    .author>h2:last-of-type {
+        font-size: 22px;
+    }
+
+    ul a {
+        font-size: 20px;
+    }
+
+    .introduction>.text {
+        height: 80%;
+    }
+
+    .details>h2 {
+        font-size: 80px;
+    }
+
+    .profession>h2 {
+        font-size: 45px;
+    }
+
+    .profession>h2:nth-of-type(2) {
+        font-size: 60px;
+    }
+
+    .motto h4 {
+        font-size: 38px;
+    }
+
+    .about>header>p, .skills>header>p, .projects>header>p, .contact>header>p {
+        font-size: 80px;
+    }
+
+    @keyframes section-header-effect {
+        50% {
+            width: 60%;
+            height: 5%;
+        }
+    
+        80% {
+            width: 60%;
+            height: 80%;
+        }
+    
+        100% {
+            width: 2%;
+            height: 80%;
+        }
+    }
+
+    .first, .second, .third {
+        width: 95%;
+    }
+
+    .first>p, .second>p, .third>p {
+        font-size: 19px;
+    }
+
+    .skills .sentence, .technologies p {
+        font-size: 24px;
+    }
+
+    .second-motto .fas {
+        font-size: 100px;
+    }
+
+    .technologies-list i {
+        font-size: 130px;
+    }
+    
+    .technologies-list h2 {
+        font-size: 20px;
+    }
+
+    .projects-list h2 {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .github-link {
+        font-size: 22px;
+    }
+
+    .contact-info h2, .contact-form h4 {
+        font-size: 22px;
+    }
+
+    .contact-info h3, .contact-form span, input, textarea {
+        font-size: 16px;
+    }
+
+    form p {
+        font-size: 16px;
+    }
+
+    button {
+        font-size: 16px;
+        height: 22px;
+        line-height: 22px;
+    }
+}
+
+@media(max-width:720px) {
+
+    .header>h2 {
+        font-size: 24px;
+    }
+
+    .burger {
+        top: 30px;
+    }
+
+    .author>img {
+        width: 80%;
+    }
+
+    .author>h2:first-of-type {
+        font-size: 30px;
+    }
+    
+    .author>h2:last-of-type {
+        font-size: 26px;
+    }
+
+    ul a {
+        font-size: 24px;
+    }
+
+    .details>h2 {
+        font-size: 84px;
+    }
+
+    .profession>h2 {
+        font-size: 48px;
+    }
+
+    .profession>h2:nth-of-type(2) {
+        font-size: 64px;
+    }
+
+    .motto h4 {
+        font-size: 42px;
+    }
+
+    @keyframes section-header-effect {
+        50% {
+            width: 70%;
+            height: 5%;
+        }
+    
+        80% {
+            width: 70%;
+            height: 80%;
+        }
+    
+        100% {
+            width: 2%;
+            height: 80%;
+        }
+    }
+
+    .about>header>p, .skills>header>p, .projects>header>p, .contact>header>p {
+        font-size: 85px;
+    }
+
+    .picture-container {
+        text-align: center;
+        width: 75%;
+    }
+
+    .first>p, .second>p, .third>p {
+        font-size: 21px;
+    }
+
+    .skills .sentence, .technologies p {
+        font-size: 25px;
+    }
+
+    .second-motto .fas {
+        font-size: 110px;
+    }
+
+    .technologies-list i {
+        font-size: 150px;
+    }
+    
+    .technologies-list h2 {
+        font-size: 24px;
+    }
+
+    .skill {
+        width: 40%;
+        margin: 2% 2.5%;
+        padding: 3% 0;
+    }
+
+    .projects-list h2 {
+        font-size: 24px;
+        margin-top: 10px;
+    }
+
+    .github-link {
+        font-size: 26px;
+    }
+
+    .contact-info h2, .contact-form h4 {
+        font-size: 25px;
+    }
+
+    .contact-info h3, .contact-form span, input, textarea {
+        font-size: 18px;
+    }
+
+    form p {
+        font-size: 18px;
+    }
+
+    button {
+        font-size: 18px;
+        height: 25px;
+        line-height: 25px;
+    }
+}
+
+@media(max-width:601px) {
+
+    .header>h2 {
+        font-size: 20px;
+    }
+
+    .burger {
+        top: 20px;
+    }
+
+    .author>img {
+        width: 70%;
+    }
+
+    .author>h2:first-of-type {
+        font-size: 24px;
+    }
+    
+    .author>h2:last-of-type {
+        font-size: 22px;
+    }
+
+    ul a {
+        font-size: 20px;
+    }
+
+    .details>h2 {
+        font-size: 70px;
+    }
+
+    .profession>h2 {
+        font-size: 40px;
+    }
+
+    .profession>h2:nth-of-type(2) {
+        font-size: 50px;
+    }
+
+    .motto h4 {
+        font-size: 30px;
+    }
+
+    @keyframes section-header-effect {
+        50% {
+            width: 70%;
+            height: 5%;
+        }
+    
+        80% {
+            width: 70%;
+            height: 80%;
+        }
+    
+        100% {
+            width: 2%;
+            height: 80%;
+        }
+    }
+
+    .about>header>p, .skills>header>p, .projects>header>p, .contact>header>p {
+        font-size: 70px;
+    }
+
+    .picture-container {
+        text-align: center;
+        width: 70%;
+    }
+
+    .first>p, .second>p, .third>p {
+        font-size: 16px;
+    }
+
+    .skills .sentence, .technologies p {
+        font-size: 20px;
+    }
+
+    .second-motto .fas {
+        font-size: 85px;
+    }
+
+    .technologies-list i {
+        font-size: 120px;
+    }
+    
+    .technologies-list h2 {
+        font-size: 20px;
+    }
+
+    .skill {
+        width: 40%;
+        margin: 2% 2.5%;
+        padding: 5% 0;
+    }
+
+    .projects-list h2 {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .github-link {
+        font-size: 20px;
+    }
+
+    .fa-lightbulb {
+        font-size: 30px;
+        margin: 0 5px;
+    }
+
+    .contact-info h2, .contact-form h4 {
+        font-size: 20px;
+    }
+
+    .contact-info h3, .contact-form span, input, textarea {
+        font-size: 15px;
+    }
+
+    form p {
+        font-size: 15px;
+    }
+
+    button {
+        font-size: 15px;
+        height: 22px;
+        line-height: 22px;
+    }
+}
+
+@media(max-width:414px) {
+
+    .header>h2 {
+        font-size: 18px;
+    }
+
+    .burger {
+        top: 20px;
+        right: 30px;
+        width: 34px;
+        height: 22px;
+        border-top: 2px solid var(--white);
+    }
+    
+    .burger::after, .burger::before {
+        border-top: 2px solid var(--white);
+    }
+    
+    .burger::before {
+        transform: translateY(9px);
+    }
+    
+    .burger::after {
+        transform: translateY(20px);
+    }
+
+    nav {
+        width: 100%;
+        right: -100%;
+    }
+
+    .author>img {
+        width: 70%;
+    }
+
+    .author>h2:first-of-type {
+        font-size: 24px;
+    }
+    
+    .author>h2:last-of-type {
+        font-size: 22px;
+    }
+
+    ul a {
+        font-size: 20px;
+    }
+
+    .details>h2 {
+        font-size: 60px;
+    }
+
+    .profession>h2 {
+        font-size: 30px;
+    }
+
+    .profession>h2:nth-of-type(2) {
+        font-size: 40px;
+    }
+
+    .motto h4 {
+        font-size: 26px;
+    }
+
+    @keyframes section-header-effect {
+        50% {
+            width: 90%;
+            height: 5%;
+        }
+    
+        80% {
+            width: 90%;
+            height: 80%;
+        }
+    
+        100% {
+            width: 2%;
+            height: 80%;
+        }
+    }
+
+    .about>header>p, .skills>header>p, .projects>header>p, .contact>header>p {
+        font-size: 60px;
+    }
+
+    .picture-container {
+        text-align: center;
+        width: 90%;
+    }
+
+    .first>p, .second>p, .third>p {
+        font-size: 16px;
+    }
+
+    .about img {
+        box-shadow: -15px -15px var(--deep-blue);
+    }
+
+    .about img.move {
+        box-shadow: 25px 25px var(--deep-blue);
+    }
+
+    .skills .sentence, .technologies p {
+        font-size: 18px;
+    }
+
+    .second-motto .fas {
+        font-size: 85px;
+        margin: 0 4vw;
+    }
+
+    .technologies-list i {
+        font-size: 110px;
+    }
+    
+    .technologies-list h2 {
+        font-size: 20px;
+    }
+
+    .skill {
+        width: 43%;
+        margin: 2% 0%;
+        padding: 5% 0;
+    }
+
+    .projects>.content {
+        width: 100%;
+    }
+
+    .projects-list>.first-column, .projects-list>.second-column {
+        width: 94%;
+    }
+
+    .projects-list h2 {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+    .github-link {
+        font-size: 20px;
+    }
+
+    .fa-lightbulb {
+        font-size: 30px;
+        margin: 0 5px;
+    }
+
+    .light-bulbs-first::after, .light-bulbs-second::after {
+        width: 30%;
+    }
+
+    .contact-info h2, .contact-form h4 {
+        font-size: 17px;
+    }
+
+    .contact-info h3, .contact-form span, input, textarea {
+        font-size: 15px;
+    }
+
+    form p {
+        font-size: 15px;
+    }
+
+    button {
+        font-size: 15px;
+        height: 22px;
+        line-height: 22px;
+    }
+}
+
+@media(width:414px) and (height:736px) {
+
+    .header>h2 {
+        font-size: 16px;
+    }
+
+    .burger {
+        top: 15px;
+        right: 15px;
+    }
+
+    .author>img {
+        width: 60%;
+    }
+
+    .author>h2:first-of-type {
+        font-size: 22px;
+    }
+    
+    .author>h2:last-of-type {
+        font-size: 20px;
+    }
+
+    ul a {
+        font-size: 18px;
+    }
+
+    .details>h2 {
+        font-size: 58px;
+    }
+
+    .profession>h2 {
+        font-size: 28px;
+    }
+
+    .profession>h2:nth-of-type(2) {
+        font-size: 38px;
+    }
+
+    .motto h4 {
+        font-size: 24px;
+    }
+
+    @keyframes section-header-effect {
+        50% {
+            width: 90%;
+            height: 5%;
+        }
+    
+        80% {
+            width: 90%;
+            height: 80%;
+        }
+    
+        100% {
+            width: 2%;
+            height: 80%;
+        }
+    }
+
+    .about>header>p, .skills>header>p, .projects>header>p, .contact>header>p {
+        font-size: 60px;
+    }
+
+    .picture-container {
+        text-align: center;
+        width: 90%;
+    }
+
+    .about img {
+        box-shadow: -10px -10px var(--deep-blue);
+    }
+
+    .about img.move {
+        box-shadow: 20px 20px var(--deep-blue);
+    }
+
+    .first>p, .second>p, .third>p {
+        font-size: 15px;
+    }
+
+    .skills .sentence, .technologies p {
+        font-size: 17px;
+    }
+
+    .second-motto .fas {
+        font-size: 80px;
+        margin: 0 4vw;
+    }
+
+    .technologies-list i {
+        font-size: 100px;
+    }
+    
+    .technologies-list h2 {
+        font-size: 20px;
+    }
+
+    .projects-list h2 {
+        font-size: 16px;
+        margin-top: 8px;
+    }
+
+    .github-link {
+        font-size: 18px;
+    }
+
+    .contact-info h2, .contact-form h4 {
+        font-size: 16px;
+    }
+
+    .contact-info h3, .contact-form span, input, textarea {
+        font-size: 14px;
+    }
+
+    form p {
+        font-size: 14px;
+    }
+
+    button {
+        font-size: 15px;
+        height: 20px;
+        line-height: 20px;
+    }
+
+    footer>h2 {
+        font-size: 12px;
+        line-height: 22px;
+        letter-spacing: 1px;
+    }
+}
+
+@media(width:412px) and (height:732px) {
+
+    .header>h2 {
+        font-size: 16px;
+    }
+
+    .burger {
+        top: 15px;
+        right: 15px;
+    }
+
+    .author>img {
+        width: 58%;
+    }
+
+    .details>h2 {
+        font-size: 56px;
+    }
+
+    .profession>h2 {
+        font-size: 26px;
+    }
+
+    .profession>h2:nth-of-type(2) {
+        font-size: 36px;
+    }
+
+    @keyframes section-header-effect {
+        50% {
+            width: 80%;
+            height: 5%;
+        }
+    
+        80% {
+            width: 80%;
+            height: 80%;
+        }
+    
+        100% {
+            width: 2%;
+            height: 80%;
+        }
+    }
+
+    .about>header>p, .skills>header>p, .projects>header>p, .contact>header>p {
+        font-size: 55px;
+    }
+
+    .picture-container {
+        text-align: center;
+        width: 90%;
+    }
+
+    .about img {
+        box-shadow: -10px -10px var(--deep-blue);
+    }
+
+    .about img.move {
+        box-shadow: 18px 18px var(--deep-blue);
+    }
+
+    .first>p, .second>p, .third>p {
+        font-size: 15px;
+    }
+
+    .skills .sentence, .technologies p {
+        font-size: 16px;
+    }
+
+    .second-motto .fas {
+        font-size: 70px;
+        margin: 0 4vw;
+    }
+
+    .technologies-list i {
+        font-size: 90px;
+    }
+    
+    .technologies-list h2 {
+        font-size: 18px;
+    }
+
+    .projects-list h2 {
+        font-size: 16px;
+        margin-top: 8px;
+    }
+
+    .github-link {
+        font-size: 18px;
+    }
+
+    .contact-info h2, .contact-form h4 {
+        font-size: 16px;
+    }
+
+    .contact-info h3, .contact-form span, input, textarea {
+        font-size: 14px;
+    }
+
+    form p {
+        font-size: 14px;
+    }
+
+    button {
+        font-size: 15px;
+        height: 20px;
+        line-height: 20px;
+    }
+
+    footer>h2 {
+        font-size: 12px;
+        line-height: 22px;
+        letter-spacing: 1px;
+    }
+}
+
+@media (max-width:393px) {
+    .header>h2 {
+        font-size: 16px;
+    }
+
+    .burger {
+        top: 15px;
+    }
+
+    .author>img {
+        width: 50%;
+    }
+
+    .details>h2 {
+        font-size: 48px;
+    }
+
+    .profession>h2 {
+        font-size: 28px;
+    }
+
+    .profession>h2:nth-of-type(2) {
+        font-size: 38px;
+    }
+
+    .motto h4 {
+        font-size: 24px;
+    }
+}
+
+@media(max-width:375px) {
+
+    .header>h2 {
+        font-size: 16px;
+    }
+
+    .burger {
+        top: 12px;
+        right: 14px;
+    }
+
+    .author>img {
+        width: 60%;
+    }
+
+    .author>h2:first-of-type {
+        font-size: 20px;
+    }
+    
+    .author>h2:last-of-type {
+        font-size: 20px;
+    }
+
+    ul a {
+        font-size: 18px;
+    }
+
+    .details>h2 {
+        font-size: 50px;
+    }
+
+    .profession>h2 {
+        font-size: 30px;
+    }
+
+    .profession>h2:nth-of-type(2) {
+        font-size: 40px;
+    }
+
+    .motto h4 {
+        font-size: 24px;
+    }
+
+    .motto h4::after {
+        left: -5%;
+    }
+
+    .motto h4::before {
+        left: 0%;
+    }
+
+    @keyframes highlight {
+        to {
+            width: 110%;
+        }
+    }
+
+    @keyframes section-header-effect {
+        50% {
+            width: 80%;
+            height: 5%;
+        }
+    
+        80% {
+            width: 80%;
+            height: 80%;
+        }
+    
+        100% {
+            width: 2%;
+            height: 80%;
+        }
+    }
+
+    .about>header>p, .skills>header>p, .projects>header>p, .contact>header>p {
+        font-size: 50px;
+    }
+
+    .picture-container {
+        text-align: center;
+        width: 90%;
+    }
+
+    .first>p, .second>p, .third>p {
+        font-size: 14px;
+    }
+
+    .about img {
+        box-shadow: -10px -10px var(--deep-blue);
+    }
+
+    .about img.move {
+        box-shadow: 15px 15px var(--deep-blue);
+    }
+
+    .skills .sentence, .technologies p {
+        font-size: 16px;
+    }
+
+    .second-motto .fas {
+        font-size: 75px;
+        margin: 0 4vw;
+    }
+
+    .technologies-list i {
+        font-size: 100px;
+    }
+    
+    .technologies-list h2 {
+        font-size: 18px;
+    }
+
+    .skill {
+        width: 44%;
+        margin: 2% 0%;
+        padding: 5% 0;
+    }
+
+    .projects-list h2 {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+
+    .github-link {
+        font-size: 18px;
+    }
+
+    .contact-info h2, .contact-form h4 {
+        font-size: 16px;
+    }
+
+    .contact-info h3, .contact-form span, input, textarea {
+        font-size: 14px;
+    }
+
+    form p {
+        font-size: 14px;
+    }
+
+    button {
+        font-size: 14px;
+        height: 20px;
+        line-height: 20px;
+    }
+
+    footer>h2 {
+        font-size: 12px;
+        line-height: 22px;
+        letter-spacing: 1px;
+    }
+}
+
+@media(max-width:375px) and (height:812px) {
+
+    .burger {
+        top: 14px;
+    }
+
+    @keyframes section-header-effect {
+        50% {
+            width: 80%;
+            height: 5%;
+        }
+    
+        80% {
+            width: 80%;
+            height: 80%;
+        }
+    
+        100% {
+            width: 2%;
+            height: 80%;
+        }
+    }
+
+    .picture-container {
+        text-align: center;
+        width: 100%;
+    }
+
+    .first>p, .second>p, .third>p {
+        font-size: 15px;
+    }
+
+    .projects-list h2 {
+        font-size: 16px;
+        margin-top: 8px;
+    }
+
+    .github-link {
+        font-size: 18px;
+    }
+
+    footer>h2 {
+        font-size: 12px;
+        line-height: 20px;
+        letter-spacing: 1px;
+    }
+}
+
+@media(max-width:360px) {
+
+    .contact-info h2, .contact-form h4 {
+        font-size: 15px;
+    }
+
+    .contact-info h3, .contact-form span, input, textarea {
+        font-size: 13px;
+    }
+
+    form p {
+        font-size: 13px;
+    }
+
+    button {
+        font-size: 14px;
+        height: 20px;
+        line-height: 20px;
+    }
+
+    footer>h2 {
+        font-size: 10px;
+        line-height: 20px;
+        letter-spacing: 1px;
+    }
+}

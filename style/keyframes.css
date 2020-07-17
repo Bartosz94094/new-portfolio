@@ -1,0 +1,49 @@
+@keyframes highlight {
+    to {
+        width: 120%;
+    }
+}
+
+@keyframes show {
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes position-pics {
+    66.3% {
+        transform: translateY(10%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes place-links {
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes show-border {
+    to {
+        height: 0%;
+    }
+}
+
+@keyframes section-header-effect {
+    50% {
+        width: 45%;
+        height: 5%;
+    }
+
+    80% {
+        width: 45%;
+        height: 80%;
+    }
+
+    100% {
+        width: 1%;
+        height: 80%;
+    }
+}

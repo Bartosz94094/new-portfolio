@@ -1,0 +1,125 @@
+.introduction {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--white);
+    position: relative;
+    overflow-x: hidden;
+}
+
+.introduction>.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("/images/welcome.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.introduction>.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 80%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--white);
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.personal-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: var(--white);
+}
+
+.details>h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 110px;
+    text-shadow: 3px 3px black;
+}
+
+.profession h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    text-shadow: 2px 2px black;
+}
+
+.profession>h2:nth-of-type(2) {
+    font-size: 80px;
+}
+
+.details, .profession {
+    text-align: start;
+}
+
+.details {
+    margin-right: 5vw;
+}
+
+.profession {
+    margin-left: 5vw;
+}
+
+.motto {
+    display: inline-block;
+    margin-top: 10vh;
+    text-align: center;
+    transform: rotateZ(-15deg);
+    opacity: 0;
+}
+
+.motto h4 {
+    position: relative;
+    font-family: 'Satisfy';
+    font-size: 30px;
+    letter-spacing: 3px;
+    color: var(--white);
+    text-shadow: 1px 1px black;
+}
+
+.motto h4::after {
+    position: absolute;
+    bottom: -4px;
+    left: -10%;
+    display: block;
+    content: "";
+    background-color: var(--white);
+    height: 1px;
+    width: 0;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.6);
+}
+
+.motto.highlighted {
+    animation: 1s show forwards;
+}
+
+.motto.highlighted h4::after {
+    animation: 1s 0.5s highlight forwards;
+}
+
+.motto h4::before {
+    position: absolute;
+    bottom: -10px;
+    left: 0%;
+    display: block;
+    content: "";
+    background-color: var(--white);
+    height: 1px;
+    width: 0;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.6);
+}
+
+.motto.highlighted h4::before {
+    animation: 1s 1.3s highlight forwards;
+}

@@ -1,0 +1,181 @@
+.about {
+    /* position: absolute;
+    z-index: 2;
+    top: 100vh;
+    left: 0;
+    width: 100%; */
+    display: flex;
+    flex-direction: column;
+    background-color: var(--white);
+    overflow-x: hidden;
+}
+
+.about>header {
+    position: relative;
+    margin-top: 5vh;
+    margin-left: 6vw;
+    margin-right: 6vw;
+    border-bottom: 2px solid black;
+}
+
+.about>header::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    background-color: black;
+    height: 5%;
+    width: 0%;
+    z-index: 0;
+}
+
+.about>header.anim::after {
+    animation: section-header-effect 2s forwards;
+}
+
+.about>header>p {
+    position: relative;
+    z-index: 1;
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    font-size: 110px;
+    color: var(--white);
+    text-transform: uppercase;
+    mix-blend-mode: exclusion;
+}
+
+.about>.content {
+    width: 90%;
+    margin: 10vh auto 15vh auto;
+}
+
+.greetings {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.greetings-background {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("/images/rangoli.png");
+    background-size: 20% 25%;
+    opacity: 0.05;
+}
+
+.first, .second, .third {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.first>p, .second>p, .third>p {
+    position: relative;
+    width: 50%;
+    font-family: 'Martel', serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: justify;
+    text-indent: 14%;
+    padding: 0 8%;
+    color: black;
+    
+}
+
+.first>p, .third>p {
+    border-left: 2px dotted var(--deep-blue);
+}
+
+.second>p {
+    border-right: 2px dotted var(--deep-blue);
+}
+
+.first>p::before, .third>p::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: -2px;
+    width: 2px;
+    height: 100%;
+    background-color: var(--white);
+}
+
+.second>p::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: -2px;
+    width: 2px;
+    height: 100%;
+    background-color: var(--white);
+}
+
+.first>p.border::before {
+    animation: show-border 5920ms forwards linear;
+}
+
+.second>p.border::before {
+    animation: show-border 6240ms forwards linear;
+}
+
+.third>p.border::before {
+    animation: show-border 4160ms forwards linear;
+}
+
+.picture-container {
+    text-align: center;
+    width: 50%;
+}
+
+.about img {
+    opacity: 0;
+    width: 75%;
+    transform: translateY(-10%);
+    box-shadow: -20px -20px var(--deep-blue);
+    transition: 1s box-shadow;
+}
+
+.first.visible img,
+.second.visible img,
+.third.visible img {
+    animation: position-pics 0.7s forwards, show 1.4s forwards;
+}
+
+.about img.move {
+    box-shadow: 30px 30px var(--deep-blue);
+}
+
+.second>p {
+    order: 2;
+}
+
+.greetings span.show {
+    opacity: 1 !important;
+    position: relative;
+    z-index: 99999;
+}
+
+.special::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: -2px;
+    bottom: 0;
+    width: 0;
+    background-color: var(--basic-yellow);
+    transform: skewX(-35deg);
+    transition: 1s 0.5s width;
+}
+
+.special.show::after {
+    width: 110%;
+}
+

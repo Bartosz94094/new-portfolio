@@ -1,0 +1,157 @@
+.contact {
+    /* position: absolute;
+    z-index: 5;
+    left: 0;
+    width: 100%; */
+    background-color: var(--deep-blue);
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow-x: hidden;
+}
+
+.contact>header {
+    position: relative;
+    margin-top: 5vh;
+    margin-left: 6vw;
+    margin-right: 6vw;
+    border-bottom: 2px solid var(--white);
+}
+
+.contact>header::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    background-color: var(--deep-red);
+    height: 5%;
+    width: 0%;
+    z-index: 0;
+}
+
+.contact>header.anim::after {
+    animation: section-header-effect 2s forwards;
+}
+
+.contact>header>p {
+    position: relative;
+    z-index: 1;
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    font-size: 110px;
+    text-transform: uppercase;
+}
+
+.contact>.content {
+    display: flex;
+    justify-content: center;
+    margin: 10vh auto 5vh auto;
+}
+
+.contact-form, .contact-info {
+    display: inline-block;
+}
+
+.contact-form {
+    margin-right: 3vw;
+}
+
+.contact-info {
+    margin-left: 3vw;
+}
+
+.contact-info h2, .contact-info h3, .contact-form span, .contact-form h4, input, textarea, button {
+    font-family: 'Martel', serif;
+    font-weight: 400;
+}
+
+.contact-info h2, .contact-form h4 {
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.contact-info h3, .contact-form span, input, textarea {
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+.contact-info i {
+    margin-right: 1vw;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+input {
+    width: 70%;
+}
+textarea {
+    width: 100%;
+    resize: none;
+}
+
+button {
+    display: block;
+    width: 20%;
+    margin: 0 auto;
+    text-transform: uppercase;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 14px;
+    height: 22px;
+    line-height: 22px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+form p {
+    font-family: 'Martel', serif;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: black;
+}
+
+footer>h2 {
+    font-family: 'Martel', serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 12px;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+
+footer i {
+    margin: 0 4px;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+footer .fa-mobile-alt {
+    border-right: 1px solid var(--white);
+    padding-right: 1%;
+}
+
+footer .additional {
+    display: inline;
+    padding-left: 1%;
+}

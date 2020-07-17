@@ -1,0 +1,203 @@
+.projects {
+    /* position: absolute;
+    z-index: 4;
+    left: 0;
+    width: 100%; */
+    display: flex;
+    flex-direction: column;
+    background-color: var(--white);
+    overflow-x: hidden;
+}
+
+.projects>header {
+    position: relative;
+    margin-top: 5vh;
+    margin-left: 6vw;
+    margin-right: 6vw;
+    border-bottom: 2px solid black;
+}
+
+.projects>header::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    background-color: black;
+    height: 5%;
+    width: 0%;
+    z-index: 0;
+}
+
+.projects>header.anim::after {
+    animation: section-header-effect 2s forwards;
+}
+
+.projects>header>p {
+    position: relative;
+    z-index: 1;
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    font-size: 110px;
+    color: var(--white);
+    text-transform: uppercase;
+    mix-blend-mode: exclusion;
+}
+
+.projects>.content {
+    position: relative;
+    z-index: 1;
+    margin: 5vh auto 10vh auto;
+    width: 90%;
+}
+
+.content-background {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("/images/pattern.png");
+    background-size: 10% 16.6%;
+    
+    opacity: 0.08;
+}
+
+.projects-list {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.first-column, .second-column {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.projects-list .image {
+    display: block;
+    position: relative;
+}
+
+.projects-list img {
+    width: 100%;
+    cursor: pointer;
+    display: block;
+    transition: filter 0.7s;
+}
+
+.projects-list h2 {
+    font-family: 'Martel', serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 9px;
+}
+
+.github-link-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0);
+    transition: background-color 0.7s;
+}
+
+.github-link {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    font-family: 'Martel', serif;
+    font-weight: 400;
+    font-size: 22px;
+    padding: 0 10px;
+    color: white;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.7s;
+}
+
+.pokedex, .first-website, .upcoming {
+    text-align: center;
+    transform: translateY(-10%);
+    opacity: 0;
+    border: 2px dotted black;
+    border-radius: 15px;
+    padding: 3%;
+    background-color: var(--white);
+}
+
+.pokedex.visible, .first-website.visible, .upcoming.visible {
+    animation: position-pics 0.7s forwards, show 1.4s forwards;
+}
+
+.projects-list .image:hover {
+    cursor: pointer;
+}
+
+.projects-list .image:hover img {
+    filter: blur(2px);
+}
+
+.projects-list .image:hover .github-link {
+    opacity: 1;
+}
+
+.projects-list .image:hover .github-link-background {
+    background-color: rgba(0,0,0,0.7);
+}
+
+.first-website {
+    margin: 10vh 0 0 0;
+}
+
+.light-bulbs-first {
+    position: relative;
+    text-align: right;
+    margin-right: 5%;
+    margin-bottom: 5vh;
+    z-index: 1;
+}
+
+.light-bulbs-first::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 13%;
+    background-color: var(--basic-yellow);
+    transform: skew(-35deg);
+}
+
+.light-bulbs-second {
+    position: relative;
+    text-align: left;
+    margin-left: 5%;
+    margin-top: 5vh;
+    z-index: 1;
+}
+
+.light-bulbs-second::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 13%;
+    background-color: var(--basic-yellow);
+    transform: skew(-35deg);
+}
+
+.fa-lightbulb {
+    font-size: 50px;
+    margin: 0 10px;
+}
